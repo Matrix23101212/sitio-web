@@ -12,7 +12,7 @@ bcrypt = Bcrypt(app)
 app.secret_key = "advpjsh"
 
 # Configuración de MongoDB Atlas
-client = MongoClient("tu enlace de base de datos aquí")
+client = MongoClient("mongodb+srv://matiasoviedo2310:Lth0ZBhSsXOYpBoV@cluster0.h7e8m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client['db2'] #Nombre de tu base de datos aquí
 collection = db['usuarios'] #Nombre de tu colección aquí
 
